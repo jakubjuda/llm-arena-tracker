@@ -4,54 +4,43 @@
     <title>LLM Arena Tracker</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
-        body { font-family: sans-serif; margin: 40px; background: #f4f4f9; }
-        .container { max-width: 900px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        canvas { width: 100% !important; height: 400px !important; }
+        body { font-family: system-ui; background: #f8fafc; padding: 2rem; color: #1e293b; }
+        .container { max-width: 1000px; margin: auto; background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
+        h1 { font-size: 1.5rem; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h2>LLM Arena: Code Leaderboard Over Time</h2>
-        <canvas id="arenaChart"></canvas>
+        <h1>Model Ranking Trends (Elo Score)</h1>
+        <canvas id="rankingChart" height="150"></canvas>
     </div>
 
     <script>
-        async function fetchData() {
-            // Fetch the history.json created by your GitHub Action
-            const response = await fetch('./history.json');
-            const data = await response.json();
+        async function loadData() {
+            const res = await fetch('./data/history.json');
+            const history = await res.json();
 
-            // Prepare labels (Dates)
-            const labels = data.map(entry => entry.date);
+            const dates = history.map(d => d.date);
+            const modelNames = [...new Set(history.flatMap(d => d.models.map(m => m.name)))].slice(0, 8);
 
-            // Extract unique model names
-            const modelNames = [...new Set(data.flatMap(entry => entry.data.map(m => m.name)))];
+            const datasets = modelNames.map((name, i) => ({
+                label: name,
+                data: history.map(day => {
+                    const m = day.models.find(mod => mod.name === name);
+                    return m ? m.score : null;
+                }),
+                borderColor: `hsl(${i * 45}, 70%, 50%)`,
+                backgroundColor: 'transparent',
+                tension: 0.3
+            }));
 
-            // Create a dataset for each model
-            const datasets = modelNames.map(name => {
-                return {
-                    label: name,
-                    data: data.map(entry => {
-                        const model = entry.data.find(m => m.name === name);
-                        return model ? model.score : null; // Use 'score' or 'rank'
-                    }),
-                    borderWidth: 2,
-                    fill: false,
-                    tension: 0.1
-                };
-            });
-
-            new Chart(document.getElementById('arenaChart'), {
+            new Chart(document.getElementById('rankingChart'), {
                 type: 'line',
-                data: { labels, datasets },
-                options: {
-                    responsive: true,
-                    plugins: { legend: { position: 'bottom' } },
-                    scales: { y: { title: { display: true, text: 'Elo / Score' } } }
-                }
+                data: { labels: dates, datasets },
+                options: { responsive: true, plugins: { legend: { position: 'bottom' } } }
             });
         }
-        fetchData();
+        loadData();
     </script>
 </body>
 </html>
