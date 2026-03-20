@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LLM Arena Tracker</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: sans-serif; margin: 40px; background: #f4f4f9; }
+        .container { max-width: 900px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        canvas { width: 100% !important; height: 400px !important; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>LLM Arena: Code Leaderboard Over Time</h2>
+        <canvas id="arenaChart"></canvas>
+    </div>
+
+    <script>
+        async function fetchData() {
+            // Fetch the history.json created by your GitHub Action
+            const response = await fetch('./history.json');
+            const data = await response.json();
+
+            // Prepare labels (Dates)
+            const labels = data.map(entry => entry.date);
+
+            // Extract unique model names
+            const modelNames = [...new Set(data.flatMap(entry => entry.data.map(m => m.name)))];
+
+            // Create a dataset for each model
+            const datasets = modelNames.map(name => {
+                return {
+                    label: name,
+                    data: data.map(entry => {
+                        const model = entry.data.find(m => m.name === name);
+                        return model ? model.score : null; // Use 'score' or 'rank'
+                    }),
+                    borderWidth: 2,
+                    fill: false,
+                    tension: 0.1
+                };
+            });
+
+            new Chart(document.getElementById('arenaChart'), {
+                type: 'line',
+                data: { labels, datasets },
+                options: {
+                    responsive: true,
+                    plugins: { legend: { position: 'bottom' } },
+                    scales: { y: { title: { display: true, text: 'Elo / Score' } } }
+                }
+            });
+        }
+        fetchData();
+    </script>
+</body>
+</html>
