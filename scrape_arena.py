@@ -4,79 +4,63 @@ import json
 import os
 from datetime import datetime
 
-FILE_NAME = "history.json"
+# Configuration
+HISTORY_FILE = "data/history.json"
+os.makedirs("data", exist_ok=True)
 
-def scrape_arena_html():
+def get_latest_data():
     url = "https://arena.ai/leaderboard/code"
-    # Spoofing a standard browser so they don't block the Python request
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-    }
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
     
-    print("Fetching HTML...")
     response = requests.get(url, headers=headers)
-    
     if response.status_code != 200:
-        print(f"Failed to fetch page: {response.status_code}")
-        return
+        raise Exception(f"Failed to load page: {response.status_code}")
 
-    html_content = response.text
-    
-    # 1. Use Regex to find the embedded JSON array
-    # We look for "entries":[ ... ] followed by ,"voteCutoffISOString"
-    match = re.search(r'"entries":(\[.*?\]),"voteCutoffISOString"', html_content)
-    
+    # Next.js embeds the data in a script tag. We search for the "entries" array.
+    # Note: Regex patterns may need slight adjustments if the site updates.
+    match = re.search(r'\"entries\":(\[.*?\])', response.text)
     if not match:
-        print("Could not find the 'entries' data in the HTML. The site structure may have changed.")
-        return
-        
-    raw_json_string = match.group(1)
-    
-    try:
-        # 2. Parse the extracted string into a Python list of dictionaries
-        models_data = json.loads(raw_json_string)
-        print(f"Success! Extracted {len(models_data)} models.")
-        
-        # 3. Clean up the data to keep our history file small
-        clean_ranking = []
-        for model in models_data:
-            clean_ranking.append({
-                "rank": model.get("rank"),
-                "name": model.get("modelDisplayName"),
-                "score": model.get("rating"),
-                "organization": model.get("modelOrganization")
-            })
-            
-        # 4. Save to history.json (Append Mode)
-        update_history(clean_ranking)
-        
-    except json.JSONDecodeError:
-        print("Failed to decode the JSON. The regex might have captured broken data.")
+        raise Exception("Could not find rankings data in HTML")
 
-def update_history(new_data):
-    if os.path.exists(FILE_NAME):
-        with open(FILE_NAME, "r") as f:
-            try:
-                history = json.load(f)
-            except json.JSONDecodeError:
-                history = []
+    raw_data = json.loads(match.group(1))
+    
+    # Standardize data format
+    return [
+        {
+            "name": m.get("modelDisplayName") or m.get("model"),
+            "score": m.get("rating"),
+            "org": m.get("modelOrganization")
+        }
+        for m in raw_data
+    ][:20]  # Keep only top 20 to keep files small
+
+def update_history():
+    # 1. Fetch new data
+    new_snapshot = get_latest_data()
+    today = datetime.now().strftime("%Y-%m-%d")
+
+    # 2. Load existing history
+    if os.path.exists(HISTORY_FILE):
+        with open(HISTORY_FILE, "r") as f:
+            history = json.load(f)
     else:
         history = []
 
-    today = datetime.now().strftime("%Y-%m-%d")
-    
-    # Avoid duplicate entries for the same day
+    # 3. Append today's data if not already present
     if not any(entry['date'] == today for entry in history):
         history.append({
             "date": today,
-            "data": new_data
+            "models": new_snapshot
         })
         
-        with open(FILE_NAME, "w") as f:
+        # Keep only the last 100 days to ensure fast loading
+        history = history[-100:]
+
+        with open(HISTORY_FILE, "w") as f:
             json.dump(history, f, indent=2)
-        print("History updated successfully!")
+        print(f"Updated history for {today}")
     else:
-        print("Data for today already exists. Skipping.")
+        print("Today's data already exists.")
 
 if __name__ == "__main__":
-    scrape_arena_html()
+    update_history()
