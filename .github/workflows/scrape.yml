@@ -1,8 +1,7 @@
 name: Daily Ranking Scrape
 on:
   schedule:
-    - cron: '01 8 * * *'
-      timezone: "Europe/Dublin"
+    - cron: '15 3 * * *'
 jobs:
   scrape-and-deploy:
     runs-on: ubuntu-latest
