@@ -5458,5 +5458,135 @@
         "org": "Xiaomi"
       }
     ]
+  },
+  {
+    "date": "2026-05-01",
+    "models": [
+      {
+        "name": "claude-opus-4-7-thinking",
+        "score": 1571.3,
+        "org": "Anthropic"
+      },
+      {
+        "name": "claude-opus-4-7",
+        "score": 1564.7,
+        "org": "Anthropic"
+      },
+      {
+        "name": "claude-opus-4-6-thinking",
+        "score": 1550.9,
+        "org": "Anthropic"
+      },
+      {
+        "name": "claude-opus-4-6",
+        "score": 1547.7,
+        "org": "Anthropic"
+      },
+      {
+        "name": "glm-5.1",
+        "score": 1534.2,
+        "org": "Z.ai"
+      },
+      {
+        "name": "kimi-k2.6",
+        "score": 1529.0,
+        "org": "Moonshot"
+      },
+      {
+        "name": "claude-sonnet-4-6",
+        "score": 1524.8,
+        "org": "Anthropic"
+      },
+      {
+        "name": "muse-spark",
+        "score": 1510.5,
+        "org": "Meta"
+      },
+      {
+        "name": "gpt-5.5-high (codex-harness)",
+        "score": 1500.5,
+        "org": "OpenAI"
+      },
+      {
+        "name": "claude-opus-4-5-20251101-thinking-32k",
+        "score": 1490.5,
+        "org": "Anthropic"
+      },
+      {
+        "name": "mimo-v2.5-pro",
+        "score": 1479.0,
+        "org": "Xiaomi"
+      },
+      {
+        "name": "qwen3.6-plus",
+        "score": 1469.8,
+        "org": "Alibaba"
+      },
+      {
+        "name": "claude-opus-4-5-20251101",
+        "score": 1467.6,
+        "org": "Anthropic"
+      },
+      {
+        "name": "gpt-5.4-high (codex-harness)",
+        "score": 1456.5,
+        "org": "OpenAI"
+      },
+      {
+        "name": "gemini-3.1-pro-preview",
+        "score": 1455.8,
+        "org": "Google"
+      },
+      {
+        "name": "deepseek-v4-pro-thinking",
+        "score": 1455.1,
+        "org": "DeepSeek"
+      },
+      {
+        "name": "gpt-5.5 (codex-harness)",
+        "score": 1450.4,
+        "org": "OpenAI"
+      },
+      {
+        "name": "mimo-v2.5",
+        "score": 1443.0,
+        "org": "Xiaomi"
+      },
+      {
+        "name": "glm-4.7",
+        "score": 1439.7,
+        "org": "Z.ai"
+      },
+      {
+        "name": "gemini-3-pro",
+        "score": 1438.1,
+        "org": "Google"
+      },
+      {
+        "name": "gpt-5.4-medium (codex-harness)",
+        "score": 1436.8,
+        "org": "OpenAI"
+      },
+      {
+        "name": "gemini-3-flash",
+        "score": 1436.8,
+        "org": "Google"
+      },
+      {
+        "name": "glm-5",
+        "score": 1436.2,
+        "org": "Z.ai"
+      },
+      {
+        "name": "kimi-k2.5-thinking",
+        "score": 1427.5,
+        "org": "Moonshot"
+      },
+      {
+        "name": "mimo-v2-pro",
+        "score": 1427.1,
+        "org": "Xiaomi"
+      }
+    ]
   }
 ]
