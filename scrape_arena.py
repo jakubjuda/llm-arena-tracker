@@ -6,6 +6,7 @@ from datetime import datetime
 
 # Configuration
 HISTORY_FILE = "data/history.json"
+ARCHIVE_FILE = "data/archive.json"
 os.makedirs("data", exist_ok=True)
 
 def get_latest_data():
@@ -77,7 +78,23 @@ def update_history():
                 "date": today,
                 "models": new_snapshot
             })
-            
+
+            # ARCHIVE LOGIC: Check if history now exceeds 100 entries
+            if len(history) > 100:
+                # Isolate the records to archive (everything except the last 100)
+                old_records = history[:-100]
+                
+                if os.path.exists(ARCHIVE_FILE):
+                    with open(ARCHIVE_FILE, "r") as f:
+                        archive_data = json.load(f)
+                else:
+                    archive_data = []
+                
+                # Append old records and save the archive
+                archive_data.extend(old_records)
+                with open(ARCHIVE_FILE, "w") as f:
+                    json.dump(archive_data, f, indent=2)
+                
             # Keep only last 100 snapshots
             history = history[-100:]
 
