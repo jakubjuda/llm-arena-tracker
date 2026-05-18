@@ -21,7 +21,7 @@
             const history = await res.json();
 
             const dates = history.map(d => d.date);
-            const modelNames = [...new Set(history.flatMap(d => d.models.map(m => m.name)))].slice(0, 8);
+            const modelNames = [...new Set(history.flatMap(d => d.models.map(m => m.name)))].slice(0, 16);
 
             const datasets = modelNames.map((name, i) => ({
                 label: name,
