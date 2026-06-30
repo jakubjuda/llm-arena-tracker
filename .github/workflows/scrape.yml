@@ -2,7 +2,7 @@ name: Daily Ranking Scrape
 on:
   schedule:
     - cron: '15 3 * * *'
-  workflow_dispatch:     # Enables the manual 'Run workflow' button
+  #workflow_dispatch:     # Enables the manual 'Run workflow' button
 jobs:
   scrape-and-deploy:
     runs-on: ubuntu-latest
