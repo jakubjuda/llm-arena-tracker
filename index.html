@@ -1,46 +1,363 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LLM Arena Tracker</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
-        body { font-family: system-ui; background: #f8fafc; padding: 2rem; color: #1e293b; }
-        .container { max-width: 1000px; margin: auto; background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
-        h1 { font-size: 1.5rem; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            margin: 0;
+            padding: 30px;
+            background-color: #f3f4f6;
+            color: #111827;
+        }
+
+        .main-wrapper {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .chart-card {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -4px rgba(0, 0, 0, 0.05);
+            border: 1px solid #e5e7eb;
+        }
+
+        .chart-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #f3f4f6;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin: 0;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1f2937;
+        }
+
+        /* Master Toggle Button Styling */
+        .master-toggle-btn {
+            background-color: #ef4444;
+            /* Soft Red for "Hide All" */
+            color: #ffffff;
+            border: none;
+            padding: 8px 16px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            border-radius: 6px;
+            cursor: pointer;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            transition: background-color 0.2s, transform 0.1s;
+        }
+
+        .master-toggle-btn:hover {
+            background-color: #dc2626;
+        }
+
+        .master-toggle-btn:active {
+            transform: scale(0.97);
+        }
+
+        /* State shift when all models are hidden */
+        .master-toggle-btn.all-hidden {
+            background-color: #10b981;
+            /* Soft Green for "Show All" */
+        }
+
+        .master-toggle-btn.all-hidden:hover {
+            background-color: #059669;
+        }
+
+        .canvas-container {
+            position: relative;
+            width: 100%;
+            height: 650px;
+        }
+
+        .status {
+            text-align: center;
+            font-size: 1.1rem;
+            color: #4b5563;
+            padding: 50px 0;
+        }
     </style>
 </head>
+
 <body>
-    <div class="container">
-        <h1>Model Ranking Trends (Elo Score)</h1>
-        <canvas id="rankingChart" height="150"></canvas>
+
+    <div class="main-wrapper">
+        <div class="chart-card">
+            <div class="chart-header">
+                <h2>Model Ranking Trends (Elo Score)</h2>
+                <button id="masterToggleBtn" class="master-toggle-btn" style="display: none;">Hide All Models</button>
+            </div>
+
+            <div id="statusMessage" class="status">Parsing and optimizing trend data...</div>
+
+            <div class="canvas-container">
+                <canvas id="eloChart" style="display: none;"></canvas>
+            </div>
+        </div>
     </div>
 
     <script>
-        async function loadData() {
-            const res = await fetch('./data/history.json');
-            const history = await res.json();
+        // Global tracker variables for managing dynamic toggling state
+        let chartInstance = null;
+        let allModelsVisible = true;
 
-            const dates = history.map(d => d.date);
-            const modelNames = [...new Set(history.flatMap(d => d.models.map(m => m.name)))].slice(0, 24);
+        // Organization base hues for distinct, readable grouping
+        const orgHues = {
+            'Anthropic': 260, // Purple
+            'OpenAI': 150,    // Green
+            'Google': 210,    // Blue
+            'Z.ai': 175,      // Teal
+            'MiniMax': 25,    // Orange
+            'Xiaomi': 0,      // Red
+            'Moonshot': 230,  // Indigo
+            'Alibaba': 45     // Yellow
+        };
 
-            const datasets = modelNames.map((name, i) => ({
-                label: name,
-                data: history.map(day => {
-                    const m = day.models.find(mod => mod.name === name);
-                    return m ? m.score : null;
-                }),
-                borderColor: `hsl(${i * 45}, 70%, 50%)`,
-                backgroundColor: 'transparent',
-                tension: 0.3
-            }));
+        // Distributes lightness evenly across models in the same organization
+        function getModelColor(org, modelName, orgModelArrays) {
+            // Fallback dynamic hue if the org isn't hardcoded in our map
+            const baseHue = orgHues[org] !== undefined ? orgHues[org] : (Math.abs(org.charCodeAt(0)) * 30 % 360);
 
-            new Chart(document.getElementById('rankingChart'), {
-                type: 'line',
-                data: { labels: dates, datasets },
-                options: { responsive: true, plugins: { legend: { position: 'bottom' } } }
-            });
+            const modelsInOrg = orgModelArrays[org] || [];
+            const index = modelsInOrg.indexOf(modelName);
+            const total = modelsInOrg.length;
+
+            const saturation = 75; // Balanced saturation
+
+            // Spread lightness from 35% (darker variants) to 75% (lighter variants)
+            let lightness = 50;
+            if (total > 1) {
+                const step = 40 / (total - 1);
+                lightness = 35 + (index * step);
+            }
+
+            return `hsl(${baseHue}, ${saturation}%, ${lightness}%)`;
         }
-        loadData();
+
+        async function initChart() {
+            const statusDiv = document.getElementById('statusMessage');
+            const toggleBtn = document.getElementById('masterToggleBtn');
+
+            try {
+                const response = await fetch('./data/history.json');
+                if (!response.ok) throw new Error(`HTTP Status Error: ${response.status}`);
+
+                const rawData = await response.json();
+
+                if (!Array.isArray(rawData) || rawData.length === 0) {
+                    statusDiv.innerHTML = `<strong>No Data Available:</strong> The history dataset is empty.`;
+                    return;
+                }
+
+                // Robust chronological sort using native Date objects
+                rawData.sort((a, b) => new Date(a.date) - new Date(b.date));
+
+                const labels = rawData.map(entry => entry.date);
+                const totalDays = rawData.length;
+
+                // Map models to organizations AND group them into arrays
+                const modelsInfo = {};
+                const orgGroups = {};
+
+                rawData.forEach(day => {
+                    if (!day.models) return;
+                    day.models.forEach(model => {
+                        const orgName = model.org || 'Unknown';
+                        if (!modelsInfo[model.name]) {
+                            modelsInfo[model.name] = orgName;
+                        }
+                        if (!orgGroups[orgName]) {
+                            orgGroups[orgName] = new Set();
+                        }
+                        orgGroups[orgName].add(model.name);
+                    });
+                });
+
+                // Convert sets to sorted arrays so the lightness distribution remains entirely deterministic
+                const orgModelArrays = {};
+                for (const org in orgGroups) {
+                    orgModelArrays[org] = Array.from(orgGroups[org]).sort();
+                }
+
+                const modelNamesArray = Object.keys(modelsInfo);
+
+                // Pre-allocate matrix structures
+                const modelDataMap = {};
+                modelNamesArray.forEach(name => {
+                    modelDataMap[name] = new Array(totalDays).fill(null);
+                });
+
+                // Populate data matrix
+                rawData.forEach((dayEntry, dayIndex) => {
+                    if (!dayEntry.models) return;
+                    dayEntry.models.forEach(model => {
+                        modelDataMap[model.name][dayIndex] = model.score;
+                    });
+                });
+
+                // Assemble datasets
+                let datasets = modelNamesArray.map(modelName => {
+                    const org = modelsInfo[modelName];
+                    const uniqueColor = getModelColor(org, modelName, orgModelArrays);
+                    const dataArray = modelDataMap[modelName];
+
+                    // Read backward to acquire latest active score for ranking sort
+                    let currentScore = 0;
+                    for (let i = dataArray.length - 1; i >= 0; i--) {
+                        if (dataArray[i] !== null) {
+                            currentScore = dataArray[i];
+                            break;
+                        }
+                    }
+
+                    return {
+                        label: modelName,
+                        orgName: org,
+                        data: dataArray,
+                        borderColor: uniqueColor,
+                        backgroundColor: uniqueColor,
+                        borderWidth: 3,
+                        tension: 0.15,
+                        pointRadius: 0,
+                        hoverRadius: 7,
+                        pointHoverBorderWidth: 2,
+                        pointHoverBackgroundColor: '#ffffff',
+                        spanGaps: true,
+                        latestRankScore: currentScore
+                    };
+                });
+
+                // Sort datasets by current highest score to structure the graph stack cleanly
+                datasets.sort((a, b) => b.latestRankScore - a.latestRankScore);
+
+                statusDiv.style.display = 'none';
+                const canvas = document.getElementById('eloChart');
+                canvas.style.display = 'block';
+                toggleBtn.style.display = 'block'; // Make button visible now that data exists
+
+                // Initialize Chart instance globally accessible variable
+                chartInstance = new Chart(canvas.getContext('2d'), {
+                    type: 'line',
+                    data: { labels: labels, datasets: datasets },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        layout: {
+                            padding: { left: 10, right: 20, top: 10, bottom: 10 }
+                        },
+                        interaction: {
+                            mode: 'index',
+                            intersect: false
+                        },
+                        plugins: {
+                            legend: {
+                                position: 'bottom',
+                                align: 'center',
+                                labels: {
+                                    boxWidth: 12,
+                                    padding: 15,
+                                    font: { size: 12, weight: '500' }
+                                }
+                            },
+                            tooltip: {
+                                backgroundColor: 'rgba(17, 24, 39, 0.95)',
+                                padding: 12,
+                                titleFont: { size: 13, weight: 'bold' },
+                                bodyFont: { size: 12 },
+                                cornerRadius: 6,
+                                itemSort: (a, b) => b.raw - a.raw,
+                                callbacks: {
+                                    filter: function (tooltipItem) {
+                                        return tooltipItem.chart.isDatasetVisible(tooltipItem.datasetIndex);
+                                    },
+                                    footer: (tooltipItems) => {
+                                        if (tooltipItems.length > 12) {
+                                            return `\n... and ${tooltipItems.length - 12} more models`;
+                                        }
+                                        return null;
+                                    },
+                                    label: function (context) {
+                                        const dataPoints = context.chart.tooltip.dataPoints || [];
+                                        const indexInTooltip = dataPoints.findIndex(dp => dp.datasetIndex === context.datasetIndex);
+
+                                        const activeElements = context.chart.getActiveElements();
+                                        const isHovered = activeElements.length > 0 && activeElements[0].datasetIndex === context.datasetIndex;
+
+                                        if (indexInTooltip >= 12 && !isHovered) {
+                                            return null;
+                                        }
+
+                                        const org = context.dataset.orgName;
+                                        return ` #${indexInTooltip + 1} ${context.dataset.label} (${org}): ${context.raw.toFixed(1)}`;
+                                    }
+                                }
+                            }
+                        },
+                        scales: {
+                            x: {
+                                grid: { display: false },
+                                ticks: {
+                                    padding: 10,
+                                    callback: function (val, index) {
+                                        return index % 7 === 0 ? this.getLabelForValue(val) : '';
+                                    },
+                                    autoSkip: false
+                                },
+                                title: { display: true, text: 'Timeline (Date)', font: { weight: 'bold' }, padding: 10 }
+                            },
+                            y: {
+                                grid: { color: '#f3f4f6' },
+                                ticks: { padding: 12 },
+                                title: { display: true, text: 'Score', font: { weight: 'bold' }, padding: 10 }
+                            }
+                        }
+                    }
+                });
+
+                // Attach Click Event Listener for the Master Toggle Trigger
+                toggleBtn.addEventListener('click', () => {
+                    allModelsVisible = !allModelsVisible;
+
+                    // Modify visibility setting across entire dataset collection
+                    chartInstance.data.datasets.forEach((_, index) => {
+                        chartInstance.setDatasetVisibility(index, allModelsVisible);
+                    });
+
+                    // Redraw canvas context mapping updates instantly
+                    chartInstance.update();
+
+                    // Mutate button aesthetics and text tracking values
+                    if (allModelsVisible) {
+                        toggleBtn.textContent = 'Hide All Models';
+                        toggleBtn.classList.remove('all-hidden');
+                    } else {
+                        toggleBtn.textContent = 'Show All Models';
+                        toggleBtn.classList.add('all-hidden');
+                    }
+                });
+
+            } catch (error) {
+                statusDiv.style.color = '#dc2626';
+                statusDiv.innerHTML = `<strong>Optimization Failed:</strong> ${error.message}`;
+            }
+        }
+
+        initChart();
     </script>
+
 </body>
+
 </html>
