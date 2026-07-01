@@ -1,9 +1,17 @@
 root = true
 
-# All files use spaces, with a 2-space intent width
+# Global defaults for all files
 [*]
-indent_style = space
-indent_size = 2
 charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
+
+# Frontend standard: 2 spaces
+[*.{html,css,js}]
+indent_style = space
+indent_size = 2
+
+# Python standard: 4 spaces
+[*.py]
+indent_style = space
+indent_size = 4
