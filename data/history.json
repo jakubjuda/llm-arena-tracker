@@ -1,135 +1,5 @@
 [
   {
-    "date": "2026-05-28",
-    "models": [
-      {
-        "name": "claude-opus-4-7-thinking",
-        "score": 1566.8,
-        "org": "Anthropic"
-      },
-      {
-        "name": "claude-opus-4-7",
-        "score": 1562.4,
-        "org": "Anthropic"
-      },
-      {
-        "name": "claude-opus-4-6-thinking",
-        "score": 1542.2,
-        "org": "Anthropic"
-      },
-      {
-        "name": "qwen3.7-max-20260517",
-        "score": 1540.8,
-        "org": "Alibaba"
-      },
-      {
-        "name": "claude-opus-4-6",
-        "score": 1538.2,
-        "org": "Anthropic"
-      },
-      {
-        "name": "glm-5.1",
-        "score": 1532.8,
-        "org": "Z.ai"
-      },
-      {
-        "name": "claude-sonnet-4-6",
-        "score": 1522.9,
-        "org": "Anthropic"
-      },
-      {
-        "name": "kimi-k2.6",
-        "score": 1517.8,
-        "org": "Moonshot"
-      },
-      {
-        "name": "muse-spark",
-        "score": 1508.2,
-        "org": "Meta"
-      },
-      {
-        "name": "gemini-3.5-flash",
-        "score": 1506.4,
-        "org": "Google"
-      },
-      {
-        "name": "gpt-5.5-xhigh (codex-harness)",
-        "score": 1504.7,
-        "org": "OpenAI"
-      },
-      {
-        "name": "claude-opus-4-5-20251101-thinking-32k",
-        "score": 1490.4,
-        "org": "Anthropic"
-      },
-      {
-        "name": "qwen3.6-max-preview",
-        "score": 1485.6,
-        "org": "Alibaba"
-      },
-      {
-        "name": "gpt-5.5-high (codex-harness)",
-        "score": 1478.9,
-        "org": "OpenAI"
-      },
-      {
-        "name": "mimo-v2.5-pro",
-        "score": 1471.5,
-        "org": "Xiaomi"
-      },
-      {
-        "name": "claude-opus-4-5-20251101",
-        "score": 1467.0,
-        "org": "Anthropic"
-      },
-      {
-        "name": "deepseek-v4-pro-thinking",
-        "score": 1463.6,
-        "org": "DeepSeek"
-      },
-      {
-        "name": "qwen3.6-plus",
-        "score": 1460.4,
-        "org": "Alibaba"
-      },
-      {
-        "name": "gpt-5.4-high (codex-harness)",
-        "score": 1457.2,
-        "org": "OpenAI"
-      },
-      {
-        "name": "gemini-3.1-pro-preview",
-        "score": 1448.2,
-        "org": "Google"
-      },
-      {
-        "name": "gpt-5.5 (codex-harness)",
-        "score": 1444.3,
-        "org": "OpenAI"
-      },
-      {
-        "name": "glm-4.7",
-        "score": 1440.0,
-        "org": "Z.ai"
-      },
-      {
-        "name": "mimo-v2.5",
-        "score": 1439.9,
-        "org": "Xiaomi"
-      },
-      {
-        "name": "gemini-3-pro",
-        "score": 1438.5,
-        "org": "Google"
-      },
-      {
-        "name": "gpt-5.4-medium (codex-harness)",
-        "score": 1437.3,
-        "org": "OpenAI"
-      }
-    ]
-  },
-  {
     "date": "2026-05-29",
     "models": [
       {
@@ -12996,6 +12866,136 @@
         "name": "muse-spark-1.1",
         "score": 1539.8,
         "org": "Meta"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-05",
+    "models": [
+      {
+        "name": "claude-fable-5.1-max",
+        "score": 1762.6,
+        "org": "Anthropic"
+      },
+      {
+        "name": "qwen3.8-max-0902",
+        "score": 1688.7,
+        "org": "Alibaba"
+      },
+      {
+        "name": "claude-opus-5-max",
+        "score": 1687.2,
+        "org": "Anthropic"
+      },
+      {
+        "name": "kimi-k3-max",
+        "score": 1674.2,
+        "org": "Moonshot"
+      },
+      {
+        "name": "qwen3.8-max",
+        "score": 1669.8,
+        "org": "Alibaba"
+      },
+      {
+        "name": "claude-opus-5-high",
+        "score": 1662.3,
+        "org": "Anthropic"
+      },
+      {
+        "name": "claude-fable-5",
+        "score": 1629.4,
+        "org": "Anthropic"
+      },
+      {
+        "name": "grok-4.6-high",
+        "score": 1625.0,
+        "org": "SpaceXAI"
+      },
+      {
+        "name": "qwen3.8-flash-next",
+        "score": 1624.7,
+        "org": "Alibaba"
+      },
+      {
+        "name": "hy4-preview",
+        "score": 1623.4,
+        "org": "Tencent"
+      },
+      {
+        "name": "muse-spark-1.3 (xHigh)",
+        "score": 1618.4,
+        "org": "Meta"
+      },
+      {
+        "name": "gpt-5.6-sol-xhigh (codex-harness)",
+        "score": 1617.7,
+        "org": "OpenAI"
+      },
+      {
+        "name": "glm-5.3-max",
+        "score": 1610.6,
+        "org": "Z.ai"
+      },
+      {
+        "name": "glm-5.3-flash",
+        "score": 1606.8,
+        "org": "Z.ai"
+      },
+      {
+        "name": "qwen3.8-27b",
+        "score": 1595.7,
+        "org": "Alibaba"
+      },
+      {
+        "name": "gemini-3.7-flash-high",
+        "score": 1587.0,
+        "org": "Google"
+      },
+      {
+        "name": "glm-5.2-max",
+        "score": 1586.5,
+        "org": "Z.ai"
+      },
+      {
+        "name": "deepseek-v4-pro-high-20260813",
+        "score": 1581.6,
+        "org": "DeepSeek"
+      },
+      {
+        "name": "deepseek-v4-flash-high",
+        "score": 1580.5,
+        "org": "DeepSeek"
+      },
+      {
+        "name": "gemini-3.8-flash-high",
+        "score": 1567.5,
+        "org": "Google"
+      },
+      {
+        "name": "claude-opus-4-8-high",
+        "score": 1562.5,
+        "org": "Anthropic"
+      },
+      {
+        "name": "claude-opus-4-7",
+        "score": 1557.0,
+        "org": "Anthropic"
+      },
+      {
+        "name": "grok-4.5",
+        "score": 1556.0,
+        "org": "SpaceXAI"
+      },
+      {
+        "name": "claude-opus-4-7-high",
+        "score": 1555.7,
+        "org": "Anthropic"
+      },
+      {
+        "name": "claude-opus-4-6-high",
+        "score": 1546.0,
+        "org": "Anthropic"
       }
     ]
   }
