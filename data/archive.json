@@ -12608,5 +12608,135 @@
         "org": "OpenAI"
       }
     ]
+  },
+  {
+    "date": "2026-06-26",
+    "models": [
+      {
+        "name": "claude-fable-5",
+        "score": 1653.9,
+        "org": "Anthropic"
+      },
+      {
+        "name": "glm-5.2 (max)",
+        "score": 1593.2,
+        "org": "Z.ai"
+      },
+      {
+        "name": "claude-opus-4-8-thinking",
+        "score": 1565.2,
+        "org": "Anthropic"
+      },
+      {
+        "name": "claude-opus-4-7-thinking",
+        "score": 1563.4,
+        "org": "Anthropic"
+      },
+      {
+        "name": "claude-opus-4-7",
+        "score": 1556.9,
+        "org": "Anthropic"
+      },
+      {
+        "name": "claude-opus-4-8",
+        "score": 1542.2,
+        "org": "Anthropic"
+      },
+      {
+        "name": "claude-opus-4-6-thinking",
+        "score": 1542.2,
+        "org": "Anthropic"
+      },
+      {
+        "name": "seed-2.1-pro-preview",
+        "score": 1538.9,
+        "org": "Bytedance"
+      },
+      {
+        "name": "claude-opus-4-6",
+        "score": 1538.3,
+        "org": "Anthropic"
+      },
+      {
+        "name": "qwen3.7-max-20260517",
+        "score": 1529.8,
+        "org": "Alibaba"
+      },
+      {
+        "name": "glm-5.1",
+        "score": 1529.2,
+        "org": "Z.ai"
+      },
+      {
+        "name": "claude-sonnet-4-6",
+        "score": 1521.0,
+        "org": "Anthropic"
+      },
+      {
+        "name": "kimi-k2.6",
+        "score": 1513.5,
+        "org": "Moonshot"
+      },
+      {
+        "name": "gemini-3.5-flash",
+        "score": 1505.5,
+        "org": "Google"
+      },
+      {
+        "name": "minimax-m3",
+        "score": 1504.9,
+        "org": "MiniMax"
+      },
+      {
+        "name": "gpt-5.5-xhigh (codex-harness)",
+        "score": 1502.4,
+        "org": "OpenAI"
+      },
+      {
+        "name": "claude-opus-4-5-20251101-thinking-32k",
+        "score": 1490.2,
+        "org": "Anthropic"
+      },
+      {
+        "name": "gpt-5.5-high (codex-harness)",
+        "score": 1483.6,
+        "org": "OpenAI"
+      },
+      {
+        "name": "qwen3.6-max-preview",
+        "score": 1482.8,
+        "org": "Alibaba"
+      },
+      {
+        "name": "kimi-k2.7-code",
+        "score": 1479.2,
+        "org": "Moonshot"
+      },
+      {
+        "name": "mimo-v2.5-pro",
+        "score": 1471.3,
+        "org": "Xiaomi"
+      },
+      {
+        "name": "claude-opus-4-5-20251101",
+        "score": 1466.1,
+        "org": "Anthropic"
+      },
+      {
+        "name": "qwen3.6-plus",
+        "score": 1461.9,
+        "org": "Alibaba"
+      },
+      {
+        "name": "deepseek-v4-pro-thinking",
+        "score": 1458.2,
+        "org": "DeepSeek"
+      },
+      {
+        "name": "gpt-5.4-high (codex-harness)",
+        "score": 1456.9,
+        "org": "OpenAI"
+      }
+    ]
   }
 ]
