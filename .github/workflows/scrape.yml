@@ -5,7 +5,7 @@ on:
   workflow_dispatch:     # Enables the manual 'Run workflow' button
 jobs:
   scrape-and-deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     permissions:
       contents: write
     steps:
