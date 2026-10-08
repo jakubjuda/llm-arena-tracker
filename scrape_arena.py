@@ -11,7 +11,7 @@ os.makedirs("data", exist_ok=True)
 
 def get_latest_data():
     # Use the specific 'code' leaderboard URL
-    url = "https://arena.ai/leaderboard/code"
+    url = "https://arena.ai/leaderboard/code/webdev"
     
     # Modern headers to avoid being flagged as a bot
     headers = {
