@@ -1,4 +1,8 @@
 [project]
 name = "llm-arena-tracker"
 version = "0.1.0"
-dependencies = ["requests>=2.34.2"]
+dependencies = [
+    "datasets>=5.1.0",
+    "polars>=2.0.0",
+    "ruff>=0.17.0",
+]

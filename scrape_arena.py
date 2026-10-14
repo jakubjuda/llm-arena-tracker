@@ -1,65 +1,104 @@
-import requests
-import re
-import json
+import logging
 import os
+
+# --- GLOBAL LOGGING CONFIGURATION ---
+ENV_LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO").upper()
+LOG_LEVEL = getattr(logging, ENV_LOG_LEVEL, logging.INFO)
+
+# Format: [YYYY-MM-DD HH:MM:SS] [script_name] [LEVEL] Context message
+LOG_FORMAT = "[%(asctime)s] [scrape_arena] [%(levelname)s] %(message)s"
+logging.basicConfig(level=LOG_LEVEL, format=LOG_FORMAT, datefmt="%Y-%m-%d %H:%M:%S")
+logger = logging.getLogger(__name__)
+
+import json
 from datetime import datetime
+
+import polars as pl
+from datasets import load_dataset
 
 # Configuration
 HISTORY_FILE = "data/history.json"
 ARCHIVE_FILE = "data/archive.json"
 os.makedirs("data", exist_ok=True)
 
+# Custom mapping for organization capitalization conventions
+ORG_MAPPING = {
+    "anthropic": "Anthropic",
+    "openai": "OpenAI",
+    "google": "Google",
+    "zai": "Z.ai",
+    "minimax": "MiniMax",
+    "xiaomi": "Xiaomi",
+    "moonshot": "Moonshot",
+    "alibaba": "Alibaba",
+    "xai": "SpaceXAI",
+    "deepseek": "DeepSeek",
+}
+
+
 def get_latest_data():
-    # Use the specific 'code' leaderboard URL
-    url = "https://arena.ai/leaderboard/code/webdev"
-    
-    # Modern headers to avoid being flagged as a bot
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,webp,image/apng,*/*;q=0.8",
-        "Accept-Language": "en-US,en;q=0.9",
-    }
-    
-    response = requests.get(url, headers=headers, timeout=15)
-    if response.status_code != 200:
-        raise Exception(f"Failed to load page: {response.status_code}")
+    logger.info("Fetching latest WebDev Arena dataset using Polars...")
 
-    # FIX: Robust regex to handle both \"entries\": and "entries":
-    # It looks for the start of the 'entries' array and captures everything until the closing bracket.
-    match = re.search(r'\\?"entries\\?":\s*(\[.*?\])(?:\\?",|\\?"}|,|})', response.text)
-    if not match:
-        # Debugging: Write HTML to a file if it fails so you can inspect it in GitHub Actions
-        with open("debug_page.html", "w", encoding="utf-8") as f:
-            f.write(response.text)
-        raise Exception("Could not find rankings data in HTML. Check debug_page.html.")
+    # Pull live webdev dataset and convert natively to a Polars DataFrame via Apache Arrow
+    dataset = load_dataset("lmarena-ai/leaderboard-dataset", "webdev")
+    df = dataset["latest"].to_polars()
 
-    json_str = match.group(1)
-    
-    # CLEANUP: If the JSON is escaped (contains \"), unescape it for the JSON parser
-    if '\\"' in json_str:
-        json_str = json_str.replace('\\"', '"')
+    # FILTER: Keep only the overall WebDev leaderboard category
+    if "category" in df.columns:
+        df = df.filter(pl.col("category").str.to_lowercase() == "overall")
+        logger.debug("Filtered dataset to 'overall' category successfully.")
 
-    try:
-        raw_data = json.loads(json_str)
-    except json.JSONDecodeError as e:
-        raise Exception(f"Failed to parse JSON: {e}")
-    
-    # Standardize data format based on current site structure
+    # Sort by official rank to guarantee the exact leaderboard order
+    if "rank" in df.columns:
+        df = df.sort("rank", descending=False)
+
     standardized = []
-    for m in raw_data:
-        # Use modelDisplayName as the primary name
-        name = m.get("modelDisplayName") or m.get("model")
-        score = m.get("rating")
-        org = m.get("modelOrganization")
-        
+    seen_models = set()  # Track unique models to prevent duplicate entries
+
+    # Iterate safely through rows using Polars' high-performance row iter
+    for m in df.iter_rows(named=True):
+        name = m.get("model_name") or m.get("modelDisplayName")
+        score = m.get("rating") or m.get("score")  # dataset uses 'rating' for Elo
+        org = m.get("organization") or m.get("modelOrganization")
+
         if name and score:
-            standardized.append({
-                "name": name,
-                "score": round(float(score), 1),
-                "org": org
-            })
-            
-    return standardized[:25] # Keep Top 25
+            model_key = str(name).strip().lower()
+
+            # Skip if we already recorded this model in the current run
+            if model_key in seen_models:
+                continue
+
+            try:
+                parsed_score = round(float(score), 1)
+            except (ValueError, TypeError):
+                continue
+
+            # Format organization name using the custom convention map
+            raw_org_key = str(org).strip().lower() if org else ""
+            formatted_org = ORG_MAPPING.get(
+                raw_org_key, str(org).strip().title() if org else "Unknown"
+            )
+
+            seen_models.add(model_key)
+            standardized.append(
+                {"name": str(name), "score": parsed_score, "org": formatted_org}
+            )
+
+        # Stop once we have gathered the top 25 unique models
+        if len(standardized) >= 25:
+            break
+
+    if not standardized:
+        logger.error("Dataset loaded, but no valid unique model entries found.")
+        raise ValueError(
+            "Dataset loaded, but no valid unique model entries found for the overall category."
+        )
+    logger.info(
+        f"Successfully processed {len(standardized)} unique models from top-tier rankings."
+    )
+
+    return standardized
+
 
 def update_history():
     try:
@@ -69,44 +108,51 @@ def update_history():
         if os.path.exists(HISTORY_FILE):
             with open(HISTORY_FILE, "r") as f:
                 history = json.load(f)
+            logger.debug(f"Loaded existing history file with {len(history)} records.")
         else:
             history = []
+            logger.debug(
+                "No existing history file found. Initializing empty history list."
+            )
 
         # Prevent duplicate entries for the same day
-        if not any(entry['date'] == today for entry in history):
-            history.append({
-                "date": today,
-                "models": new_snapshot
-            })
+        if not any(entry["date"] == today for entry in history):
+            history.append({"date": today, "models": new_snapshot})
 
             # ARCHIVE LOGIC: Check if history now exceeds 100 entries
             if len(history) > 100:
-                # Isolate the records to archive (everything except the last 100)
                 old_records = history[:-100]
-                
+                logger.info(
+                    f"History length ({len(history)}) exceeds threshold. Archiving {len(old_records)} old record(s)."
+                )
+
                 if os.path.exists(ARCHIVE_FILE):
                     with open(ARCHIVE_FILE, "r") as f:
                         archive_data = json.load(f)
                 else:
                     archive_data = []
-                
-                # Append old records and save the archive
+
                 archive_data.extend(old_records)
                 with open(ARCHIVE_FILE, "w") as f:
                     json.dump(archive_data, f, indent=2)
-                
+
             # Keep only last 100 snapshots
             history = history[-100:]
 
             with open(HISTORY_FILE, "w") as f:
                 json.dump(history, f, indent=2)
-            print(f"Successfully updated history for {today}")
+            logger.info(f"Successfully updated history snapshot for {today}.")
         else:
-            print("Snapshot for today already exists.")
-            
+            logger.warning(
+                f"Snapshot for today ({today}) already exists. Skipping duplicate entry."
+            )
+
     except Exception as e:
-        print(f"Error during update: {e}")
-        raise # Re-raise to ensure the GitHub Action shows as 'Failed'
+        logger.critical(f"Critical error during history update workflow: {e}")
+        raise  # Re-raise to ensure GitHub Actions reports failure
+
 
 if __name__ == "__main__":
+    logger.info("Starting WebDev Arena daily tracking job...")
     update_history()
+    logger.info("Job execution completed.")
