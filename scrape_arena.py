@@ -35,6 +35,14 @@ ORG_MAPPING = {
     "deepseek": "DeepSeek",
 }
 
+def slugify_name(name: str) -> str:
+  """Converts a model name into a clean kebab-case identifier.
+  Example: 'Claude Opus 5.5 (Max)' -> 'claude-opus-5.5-max'
+  """
+  slug = name.lower()
+  slug = re.sub(r"[^\w\s\.-]", "", slug)
+  slug = re.sub(r"[\s_]+", "-", slug)
+  return slug.strip("-")
 
 def get_latest_data():
     logger.info("Fetching latest WebDev Arena dataset using Polars...")
@@ -80,8 +88,9 @@ def get_latest_data():
             )
 
             seen_models.add(model_key)
+            formatted_name = slugify_name(str(name))
             standardized.append(
-                {"name": str(name), "score": parsed_score, "org": formatted_org}
+                {"name": formatted_name, "score": parsed_score, "org": formatted_org}
             )
 
         # Stop once we have gathered the top 25 unique models
