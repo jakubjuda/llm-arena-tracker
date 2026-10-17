@@ -28,7 +28,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1457.6,
         "org": "OpenAI"
       },
@@ -68,7 +68,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1428.3,
         "org": "OpenAI"
       },
@@ -78,7 +78,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1409.2,
         "org": "OpenAI"
       },
@@ -98,7 +98,7 @@
         "org": "OpenAI"
       },
       {
-        "name": "gemini-3-flash (thinking-minimal)",
+        "name": "gemini-3-flash-thinking-minimal",
         "score": 1395.5,
         "org": "Google"
       },
@@ -158,7 +158,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1457.4,
         "org": "OpenAI"
       },
@@ -203,7 +203,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1428.1,
         "org": "OpenAI"
       },
@@ -218,7 +218,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1408.5,
         "org": "OpenAI"
       },
@@ -233,7 +233,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gemini-3-flash (thinking-minimal)",
+        "name": "gemini-3-flash-thinking-minimal",
         "score": 1394.8,
         "org": "Google"
       },
@@ -288,7 +288,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1457.4,
         "org": "OpenAI"
       },
@@ -333,7 +333,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1428.1,
         "org": "OpenAI"
       },
@@ -348,7 +348,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1408.5,
         "org": "OpenAI"
       },
@@ -363,7 +363,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gemini-3-flash (thinking-minimal)",
+        "name": "gemini-3-flash-thinking-minimal",
         "score": 1394.8,
         "org": "Google"
       },
@@ -418,7 +418,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1457.4,
         "org": "OpenAI"
       },
@@ -463,7 +463,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1428.1,
         "org": "OpenAI"
       },
@@ -478,7 +478,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1408.5,
         "org": "OpenAI"
       },
@@ -493,7 +493,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gemini-3-flash (thinking-minimal)",
+        "name": "gemini-3-flash-thinking-minimal",
         "score": 1394.8,
         "org": "Google"
       },
@@ -548,7 +548,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1457.4,
         "org": "OpenAI"
       },
@@ -593,7 +593,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1428.1,
         "org": "OpenAI"
       },
@@ -608,7 +608,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1408.5,
         "org": "OpenAI"
       },
@@ -623,7 +623,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gemini-3-flash (thinking-minimal)",
+        "name": "gemini-3-flash-thinking-minimal",
         "score": 1394.8,
         "org": "Google"
       },
@@ -678,7 +678,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1457.4,
         "org": "OpenAI"
       },
@@ -723,7 +723,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1428.1,
         "org": "OpenAI"
       },
@@ -738,7 +738,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1408.5,
         "org": "OpenAI"
       },
@@ -753,7 +753,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gemini-3-flash (thinking-minimal)",
+        "name": "gemini-3-flash-thinking-minimal",
         "score": 1394.8,
         "org": "Google"
       },
@@ -808,7 +808,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1457.4,
         "org": "OpenAI"
       },
@@ -853,7 +853,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1428.1,
         "org": "OpenAI"
       },
@@ -868,7 +868,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1408.5,
         "org": "OpenAI"
       },
@@ -883,7 +883,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gemini-3-flash (thinking-minimal)",
+        "name": "gemini-3-flash-thinking-minimal",
         "score": 1394.8,
         "org": "Google"
       },
@@ -938,7 +938,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.7,
         "org": "OpenAI"
       },
@@ -983,7 +983,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1428.2,
         "org": "OpenAI"
       },
@@ -993,7 +993,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1407.5,
         "org": "OpenAI"
       },
@@ -1018,7 +1018,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gemini-3-flash (thinking-minimal)",
+        "name": "gemini-3-flash-thinking-minimal",
         "score": 1391.6,
         "org": "Google"
       },
@@ -1068,7 +1068,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.7,
         "org": "OpenAI"
       },
@@ -1113,7 +1113,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1428.2,
         "org": "OpenAI"
       },
@@ -1123,7 +1123,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1407.5,
         "org": "OpenAI"
       },
@@ -1148,7 +1148,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gemini-3-flash (thinking-minimal)",
+        "name": "gemini-3-flash-thinking-minimal",
         "score": 1391.6,
         "org": "Google"
       },
@@ -1198,7 +1198,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.7,
         "org": "OpenAI"
       },
@@ -1243,7 +1243,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1428.2,
         "org": "OpenAI"
       },
@@ -1253,7 +1253,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1407.5,
         "org": "OpenAI"
       },
@@ -1278,7 +1278,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gemini-3-flash (thinking-minimal)",
+        "name": "gemini-3-flash-thinking-minimal",
         "score": 1391.6,
         "org": "Google"
       },
@@ -1328,7 +1328,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.7,
         "org": "OpenAI"
       },
@@ -1373,7 +1373,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1428.2,
         "org": "OpenAI"
       },
@@ -1383,7 +1383,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1407.5,
         "org": "OpenAI"
       },
@@ -1408,7 +1408,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gemini-3-flash (thinking-minimal)",
+        "name": "gemini-3-flash-thinking-minimal",
         "score": 1391.6,
         "org": "Google"
       },
@@ -1458,7 +1458,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.7,
         "org": "OpenAI"
       },
@@ -1503,7 +1503,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1428.2,
         "org": "OpenAI"
       },
@@ -1513,7 +1513,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1407.5,
         "org": "OpenAI"
       },
@@ -1538,7 +1538,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gemini-3-flash (thinking-minimal)",
+        "name": "gemini-3-flash-thinking-minimal",
         "score": 1391.6,
         "org": "Google"
       },
@@ -1588,7 +1588,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.7,
         "org": "OpenAI"
       },
@@ -1633,7 +1633,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1428.2,
         "org": "OpenAI"
       },
@@ -1643,7 +1643,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1407.5,
         "org": "OpenAI"
       },
@@ -1668,7 +1668,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gemini-3-flash (thinking-minimal)",
+        "name": "gemini-3-flash-thinking-minimal",
         "score": 1391.6,
         "org": "Google"
       },
@@ -1718,7 +1718,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.7,
         "org": "OpenAI"
       },
@@ -1763,7 +1763,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1428.2,
         "org": "OpenAI"
       },
@@ -1773,7 +1773,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1407.5,
         "org": "OpenAI"
       },
@@ -1798,7 +1798,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gemini-3-flash (thinking-minimal)",
+        "name": "gemini-3-flash-thinking-minimal",
         "score": 1391.6,
         "org": "Google"
       },
@@ -1848,7 +1848,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.6,
         "org": "OpenAI"
       },
@@ -1898,7 +1898,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1427.5,
         "org": "OpenAI"
       },
@@ -1908,7 +1908,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1406.6,
         "org": "OpenAI"
       },
@@ -1933,7 +1933,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gemini-3-flash (thinking-minimal)",
+        "name": "gemini-3-flash-thinking-minimal",
         "score": 1390.8,
         "org": "Google"
       },
@@ -1978,7 +1978,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.6,
         "org": "OpenAI"
       },
@@ -2028,7 +2028,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1427.5,
         "org": "OpenAI"
       },
@@ -2038,7 +2038,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1406.6,
         "org": "OpenAI"
       },
@@ -2063,7 +2063,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gemini-3-flash (thinking-minimal)",
+        "name": "gemini-3-flash-thinking-minimal",
         "score": 1390.8,
         "org": "Google"
       },
@@ -2108,7 +2108,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.6,
         "org": "OpenAI"
       },
@@ -2158,7 +2158,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1427.5,
         "org": "OpenAI"
       },
@@ -2168,7 +2168,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1406.6,
         "org": "OpenAI"
       },
@@ -2193,7 +2193,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gemini-3-flash (thinking-minimal)",
+        "name": "gemini-3-flash-thinking-minimal",
         "score": 1390.8,
         "org": "Google"
       },
@@ -2238,7 +2238,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.6,
         "org": "OpenAI"
       },
@@ -2288,7 +2288,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1427.5,
         "org": "OpenAI"
       },
@@ -2298,7 +2298,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1406.6,
         "org": "OpenAI"
       },
@@ -2323,7 +2323,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gemini-3-flash (thinking-minimal)",
+        "name": "gemini-3-flash-thinking-minimal",
         "score": 1390.8,
         "org": "Google"
       },
@@ -2368,7 +2368,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.6,
         "org": "OpenAI"
       },
@@ -2418,7 +2418,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1427.5,
         "org": "OpenAI"
       },
@@ -2428,7 +2428,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1406.6,
         "org": "OpenAI"
       },
@@ -2453,7 +2453,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gemini-3-flash (thinking-minimal)",
+        "name": "gemini-3-flash-thinking-minimal",
         "score": 1390.8,
         "org": "Google"
       },
@@ -2498,7 +2498,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.6,
         "org": "OpenAI"
       },
@@ -2548,7 +2548,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1427.5,
         "org": "OpenAI"
       },
@@ -2558,7 +2558,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1406.6,
         "org": "OpenAI"
       },
@@ -2583,7 +2583,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gemini-3-flash (thinking-minimal)",
+        "name": "gemini-3-flash-thinking-minimal",
         "score": 1390.8,
         "org": "Google"
       },
@@ -2628,7 +2628,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.6,
         "org": "OpenAI"
       },
@@ -2678,7 +2678,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1427.5,
         "org": "OpenAI"
       },
@@ -2688,7 +2688,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1406.6,
         "org": "OpenAI"
       },
@@ -2713,7 +2713,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gemini-3-flash (thinking-minimal)",
+        "name": "gemini-3-flash-thinking-minimal",
         "score": 1390.8,
         "org": "Google"
       },
@@ -2763,7 +2763,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.6,
         "org": "OpenAI"
       },
@@ -2793,7 +2793,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1436.8,
         "org": "OpenAI"
       },
@@ -2823,7 +2823,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1406.6,
         "org": "OpenAI"
       },
@@ -2893,7 +2893,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.6,
         "org": "OpenAI"
       },
@@ -2923,7 +2923,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1436.8,
         "org": "OpenAI"
       },
@@ -2953,7 +2953,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1406.6,
         "org": "OpenAI"
       },
@@ -3023,7 +3023,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.6,
         "org": "OpenAI"
       },
@@ -3053,7 +3053,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1436.8,
         "org": "OpenAI"
       },
@@ -3083,7 +3083,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1406.6,
         "org": "OpenAI"
       },
@@ -3153,7 +3153,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.6,
         "org": "OpenAI"
       },
@@ -3183,7 +3183,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1436.8,
         "org": "OpenAI"
       },
@@ -3213,7 +3213,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1406.6,
         "org": "OpenAI"
       },
@@ -3283,7 +3283,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.6,
         "org": "OpenAI"
       },
@@ -3313,7 +3313,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1436.8,
         "org": "OpenAI"
       },
@@ -3343,7 +3343,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1406.6,
         "org": "OpenAI"
       },
@@ -3413,7 +3413,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.8,
         "org": "OpenAI"
       },
@@ -3443,7 +3443,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.2,
         "org": "OpenAI"
       },
@@ -3473,7 +3473,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1406.9,
         "org": "OpenAI"
       },
@@ -3543,7 +3543,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.8,
         "org": "OpenAI"
       },
@@ -3573,7 +3573,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.2,
         "org": "OpenAI"
       },
@@ -3603,7 +3603,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1406.9,
         "org": "OpenAI"
       },
@@ -3673,7 +3673,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.8,
         "org": "OpenAI"
       },
@@ -3703,7 +3703,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.2,
         "org": "OpenAI"
       },
@@ -3733,7 +3733,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1406.9,
         "org": "OpenAI"
       },
@@ -3808,7 +3808,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.7,
         "org": "OpenAI"
       },
@@ -3838,7 +3838,7 @@
         "org": "Z.ai"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.2,
         "org": "OpenAI"
       },
@@ -3868,7 +3868,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1406.8,
         "org": "OpenAI"
       },
@@ -3938,7 +3938,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.7,
         "org": "OpenAI"
       },
@@ -3968,7 +3968,7 @@
         "org": "Z.ai"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.2,
         "org": "OpenAI"
       },
@@ -3998,7 +3998,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1406.8,
         "org": "OpenAI"
       },
@@ -4068,7 +4068,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.7,
         "org": "OpenAI"
       },
@@ -4098,7 +4098,7 @@
         "org": "Z.ai"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.2,
         "org": "OpenAI"
       },
@@ -4128,7 +4128,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1406.8,
         "org": "OpenAI"
       },
@@ -4213,7 +4213,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.7,
         "org": "OpenAI"
       },
@@ -4233,7 +4233,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1436.9,
         "org": "OpenAI"
       },
@@ -4268,7 +4268,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1406.7,
         "org": "OpenAI"
       },
@@ -4338,7 +4338,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.7,
         "org": "OpenAI"
       },
@@ -4358,7 +4358,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1436.9,
         "org": "OpenAI"
       },
@@ -4393,7 +4393,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1406.7,
         "org": "OpenAI"
       },
@@ -4478,7 +4478,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.6,
         "org": "OpenAI"
       },
@@ -4498,7 +4498,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1436.9,
         "org": "OpenAI"
       },
@@ -4533,7 +4533,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1406.7,
         "org": "OpenAI"
       },
@@ -4613,7 +4613,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.8,
         "org": "OpenAI"
       },
@@ -4633,7 +4633,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.0,
         "org": "OpenAI"
       },
@@ -4668,7 +4668,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1406.7,
         "org": "OpenAI"
       },
@@ -4743,7 +4743,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.8,
         "org": "OpenAI"
       },
@@ -4763,7 +4763,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.0,
         "org": "OpenAI"
       },
@@ -4798,7 +4798,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1406.7,
         "org": "OpenAI"
       },
@@ -4873,7 +4873,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.8,
         "org": "OpenAI"
       },
@@ -4893,7 +4893,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.0,
         "org": "OpenAI"
       },
@@ -4928,7 +4928,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1406.7,
         "org": "OpenAI"
       },
@@ -5003,7 +5003,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.8,
         "org": "OpenAI"
       },
@@ -5023,7 +5023,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.0,
         "org": "OpenAI"
       },
@@ -5058,7 +5058,7 @@
         "org": "Moonshot"
       },
       {
-        "name": "gpt-5.3-codex (codex-harness)",
+        "name": "gpt-5.3-codex-codex-harness",
         "score": 1406.7,
         "org": "OpenAI"
       },
@@ -5113,7 +5113,7 @@
         "org": "Meta"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1500.5,
         "org": "OpenAI"
       },
@@ -5133,7 +5133,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.5,
         "org": "OpenAI"
       },
@@ -5148,7 +5148,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1450.4,
         "org": "OpenAI"
       },
@@ -5163,7 +5163,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1436.8,
         "org": "OpenAI"
       },
@@ -5243,7 +5243,7 @@
         "org": "Meta"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1500.5,
         "org": "OpenAI"
       },
@@ -5268,7 +5268,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.5,
         "org": "OpenAI"
       },
@@ -5283,7 +5283,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1450.4,
         "org": "OpenAI"
       },
@@ -5303,7 +5303,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1436.8,
         "org": "OpenAI"
       },
@@ -5373,7 +5373,7 @@
         "org": "Meta"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1500.5,
         "org": "OpenAI"
       },
@@ -5398,7 +5398,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.5,
         "org": "OpenAI"
       },
@@ -5413,7 +5413,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1450.4,
         "org": "OpenAI"
       },
@@ -5433,7 +5433,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1436.8,
         "org": "OpenAI"
       },
@@ -5503,7 +5503,7 @@
         "org": "Meta"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1500.5,
         "org": "OpenAI"
       },
@@ -5528,7 +5528,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.5,
         "org": "OpenAI"
       },
@@ -5543,7 +5543,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1450.4,
         "org": "OpenAI"
       },
@@ -5563,7 +5563,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1436.8,
         "org": "OpenAI"
       },
@@ -5633,7 +5633,7 @@
         "org": "Meta"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1491.6,
         "org": "OpenAI"
       },
@@ -5658,7 +5658,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.6,
         "org": "OpenAI"
       },
@@ -5673,7 +5673,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1446.8,
         "org": "OpenAI"
       },
@@ -5698,7 +5698,7 @@
         "org": "Z.ai"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1436.9,
         "org": "OpenAI"
       },
@@ -5763,7 +5763,7 @@
         "org": "Meta"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1491.6,
         "org": "OpenAI"
       },
@@ -5788,7 +5788,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.6,
         "org": "OpenAI"
       },
@@ -5803,7 +5803,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1446.8,
         "org": "OpenAI"
       },
@@ -5828,7 +5828,7 @@
         "org": "Z.ai"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1436.9,
         "org": "OpenAI"
       },
@@ -5893,7 +5893,7 @@
         "org": "Meta"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1491.6,
         "org": "OpenAI"
       },
@@ -5918,7 +5918,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.6,
         "org": "OpenAI"
       },
@@ -5933,7 +5933,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1446.8,
         "org": "OpenAI"
       },
@@ -5958,7 +5958,7 @@
         "org": "Z.ai"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1436.9,
         "org": "OpenAI"
       },
@@ -6028,7 +6028,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1490.3,
         "org": "OpenAI"
       },
@@ -6048,7 +6048,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.8,
         "org": "OpenAI"
       },
@@ -6068,7 +6068,7 @@
         "org": "Xiaomi"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1441.0,
         "org": "OpenAI"
       },
@@ -6083,7 +6083,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.1,
         "org": "OpenAI"
       },
@@ -6158,7 +6158,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1489.5,
         "org": "OpenAI"
       },
@@ -6178,7 +6178,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.8,
         "org": "OpenAI"
       },
@@ -6198,7 +6198,7 @@
         "org": "Xiaomi"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1443.0,
         "org": "OpenAI"
       },
@@ -6213,7 +6213,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.1,
         "org": "OpenAI"
       },
@@ -6288,7 +6288,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1489.5,
         "org": "OpenAI"
       },
@@ -6308,7 +6308,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.8,
         "org": "OpenAI"
       },
@@ -6328,7 +6328,7 @@
         "org": "Xiaomi"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1443.0,
         "org": "OpenAI"
       },
@@ -6343,7 +6343,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.1,
         "org": "OpenAI"
       },
@@ -6413,7 +6413,7 @@
         "org": "Meta"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1490.9,
         "org": "OpenAI"
       },
@@ -6443,7 +6443,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.6,
         "org": "OpenAI"
       },
@@ -6463,7 +6463,7 @@
         "org": "Xiaomi"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1442.7,
         "org": "OpenAI"
       },
@@ -6478,7 +6478,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.0,
         "org": "OpenAI"
       },
@@ -6543,7 +6543,7 @@
         "org": "Meta"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1490.9,
         "org": "OpenAI"
       },
@@ -6573,7 +6573,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.6,
         "org": "OpenAI"
       },
@@ -6593,7 +6593,7 @@
         "org": "Xiaomi"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1442.7,
         "org": "OpenAI"
       },
@@ -6608,7 +6608,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.0,
         "org": "OpenAI"
       },
@@ -6673,7 +6673,7 @@
         "org": "Meta"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1490.9,
         "org": "OpenAI"
       },
@@ -6703,7 +6703,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.6,
         "org": "OpenAI"
       },
@@ -6723,7 +6723,7 @@
         "org": "Xiaomi"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1442.7,
         "org": "OpenAI"
       },
@@ -6738,7 +6738,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.0,
         "org": "OpenAI"
       },
@@ -6803,7 +6803,7 @@
         "org": "Meta"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1490.9,
         "org": "OpenAI"
       },
@@ -6833,7 +6833,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.6,
         "org": "OpenAI"
       },
@@ -6853,7 +6853,7 @@
         "org": "Xiaomi"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1442.7,
         "org": "OpenAI"
       },
@@ -6868,7 +6868,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.0,
         "org": "OpenAI"
       },
@@ -6933,7 +6933,7 @@
         "org": "Meta"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1490.9,
         "org": "OpenAI"
       },
@@ -6963,7 +6963,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.6,
         "org": "OpenAI"
       },
@@ -6983,7 +6983,7 @@
         "org": "Xiaomi"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1442.7,
         "org": "OpenAI"
       },
@@ -6998,7 +6998,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.0,
         "org": "OpenAI"
       },
@@ -7073,7 +7073,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1483.4,
         "org": "OpenAI"
       },
@@ -7093,7 +7093,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.8,
         "org": "OpenAI"
       },
@@ -7118,7 +7118,7 @@
         "org": "Z.ai"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1438.7,
         "org": "OpenAI"
       },
@@ -7128,7 +7128,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.2,
         "org": "OpenAI"
       },
@@ -7203,7 +7203,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1483.4,
         "org": "OpenAI"
       },
@@ -7223,7 +7223,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.8,
         "org": "OpenAI"
       },
@@ -7248,7 +7248,7 @@
         "org": "Z.ai"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1438.7,
         "org": "OpenAI"
       },
@@ -7258,7 +7258,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.2,
         "org": "OpenAI"
       },
@@ -7323,7 +7323,7 @@
         "org": "Meta"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1500.6,
         "org": "OpenAI"
       },
@@ -7338,7 +7338,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1481.3,
         "org": "OpenAI"
       },
@@ -7363,7 +7363,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.7,
         "org": "OpenAI"
       },
@@ -7378,7 +7378,7 @@
         "org": "Z.ai"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1439.9,
         "org": "OpenAI"
       },
@@ -7393,7 +7393,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.1,
         "org": "OpenAI"
       },
@@ -7453,7 +7453,7 @@
         "org": "Meta"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1500.6,
         "org": "OpenAI"
       },
@@ -7468,7 +7468,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1481.3,
         "org": "OpenAI"
       },
@@ -7493,7 +7493,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.7,
         "org": "OpenAI"
       },
@@ -7508,7 +7508,7 @@
         "org": "Z.ai"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1439.9,
         "org": "OpenAI"
       },
@@ -7523,7 +7523,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.1,
         "org": "OpenAI"
       },
@@ -7583,7 +7583,7 @@
         "org": "Meta"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1500.6,
         "org": "OpenAI"
       },
@@ -7598,7 +7598,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1481.3,
         "org": "OpenAI"
       },
@@ -7623,7 +7623,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.7,
         "org": "OpenAI"
       },
@@ -7638,7 +7638,7 @@
         "org": "Z.ai"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1439.9,
         "org": "OpenAI"
       },
@@ -7653,7 +7653,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.1,
         "org": "OpenAI"
       },
@@ -7713,7 +7713,7 @@
         "org": "Meta"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1500.6,
         "org": "OpenAI"
       },
@@ -7728,7 +7728,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1481.3,
         "org": "OpenAI"
       },
@@ -7753,7 +7753,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.7,
         "org": "OpenAI"
       },
@@ -7768,7 +7768,7 @@
         "org": "Z.ai"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1439.9,
         "org": "OpenAI"
       },
@@ -7783,7 +7783,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.1,
         "org": "OpenAI"
       },
@@ -7843,7 +7843,7 @@
         "org": "Meta"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1500.6,
         "org": "OpenAI"
       },
@@ -7858,7 +7858,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1481.3,
         "org": "OpenAI"
       },
@@ -7883,7 +7883,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.7,
         "org": "OpenAI"
       },
@@ -7898,7 +7898,7 @@
         "org": "Z.ai"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1439.9,
         "org": "OpenAI"
       },
@@ -7913,7 +7913,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.1,
         "org": "OpenAI"
       },
@@ -7978,7 +7978,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1502.8,
         "org": "OpenAI"
       },
@@ -7993,7 +7993,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1479.6,
         "org": "OpenAI"
       },
@@ -8018,7 +8018,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.8,
         "org": "OpenAI"
       },
@@ -8028,7 +8028,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1440.5,
         "org": "OpenAI"
       },
@@ -8048,7 +8048,7 @@
         "org": "Xiaomi"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.2,
         "org": "OpenAI"
       },
@@ -8108,7 +8108,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1502.8,
         "org": "OpenAI"
       },
@@ -8123,7 +8123,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1479.6,
         "org": "OpenAI"
       },
@@ -8148,7 +8148,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.8,
         "org": "OpenAI"
       },
@@ -8158,7 +8158,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1440.5,
         "org": "OpenAI"
       },
@@ -8178,7 +8178,7 @@
         "org": "Xiaomi"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.2,
         "org": "OpenAI"
       },
@@ -8238,7 +8238,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1502.8,
         "org": "OpenAI"
       },
@@ -8253,7 +8253,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1479.6,
         "org": "OpenAI"
       },
@@ -8278,7 +8278,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.8,
         "org": "OpenAI"
       },
@@ -8288,7 +8288,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1440.5,
         "org": "OpenAI"
       },
@@ -8308,7 +8308,7 @@
         "org": "Xiaomi"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.2,
         "org": "OpenAI"
       },
@@ -8368,7 +8368,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1502.8,
         "org": "OpenAI"
       },
@@ -8383,7 +8383,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1479.6,
         "org": "OpenAI"
       },
@@ -8408,7 +8408,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.8,
         "org": "OpenAI"
       },
@@ -8418,7 +8418,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1440.5,
         "org": "OpenAI"
       },
@@ -8438,7 +8438,7 @@
         "org": "Xiaomi"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.2,
         "org": "OpenAI"
       },
@@ -8498,7 +8498,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1502.8,
         "org": "OpenAI"
       },
@@ -8513,7 +8513,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1479.6,
         "org": "OpenAI"
       },
@@ -8538,7 +8538,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.8,
         "org": "OpenAI"
       },
@@ -8548,7 +8548,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1440.5,
         "org": "OpenAI"
       },
@@ -8568,7 +8568,7 @@
         "org": "Xiaomi"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.2,
         "org": "OpenAI"
       },
@@ -8633,7 +8633,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1504.7,
         "org": "OpenAI"
       },
@@ -8648,7 +8648,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1478.9,
         "org": "OpenAI"
       },
@@ -8673,7 +8673,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1457.2,
         "org": "OpenAI"
       },
@@ -8683,7 +8683,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1444.3,
         "org": "OpenAI"
       },
@@ -8703,7 +8703,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.3,
         "org": "OpenAI"
       }
@@ -8763,7 +8763,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1504.7,
         "org": "OpenAI"
       },
@@ -8778,7 +8778,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1478.9,
         "org": "OpenAI"
       },
@@ -8803,7 +8803,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1457.2,
         "org": "OpenAI"
       },
@@ -8813,7 +8813,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1444.3,
         "org": "OpenAI"
       },
@@ -8833,7 +8833,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.3,
         "org": "OpenAI"
       }
@@ -8893,7 +8893,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1504.7,
         "org": "OpenAI"
       },
@@ -8908,7 +8908,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1478.9,
         "org": "OpenAI"
       },
@@ -8933,7 +8933,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1457.2,
         "org": "OpenAI"
       },
@@ -8943,7 +8943,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1444.3,
         "org": "OpenAI"
       },
@@ -8963,7 +8963,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.3,
         "org": "OpenAI"
       }
@@ -9023,7 +9023,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1504.7,
         "org": "OpenAI"
       },
@@ -9038,7 +9038,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1478.9,
         "org": "OpenAI"
       },
@@ -9063,7 +9063,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1457.2,
         "org": "OpenAI"
       },
@@ -9073,7 +9073,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1444.3,
         "org": "OpenAI"
       },
@@ -9093,7 +9093,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.3,
         "org": "OpenAI"
       }
@@ -9153,7 +9153,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1504.7,
         "org": "OpenAI"
       },
@@ -9168,7 +9168,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1478.9,
         "org": "OpenAI"
       },
@@ -9193,7 +9193,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1457.2,
         "org": "OpenAI"
       },
@@ -9203,7 +9203,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1444.3,
         "org": "OpenAI"
       },
@@ -9223,7 +9223,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.3,
         "org": "OpenAI"
       }
@@ -9283,7 +9283,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1504.7,
         "org": "OpenAI"
       },
@@ -9298,7 +9298,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1478.9,
         "org": "OpenAI"
       },
@@ -9323,7 +9323,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1457.2,
         "org": "OpenAI"
       },
@@ -9333,7 +9333,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1444.3,
         "org": "OpenAI"
       },
@@ -9353,7 +9353,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.3,
         "org": "OpenAI"
       }
@@ -9413,7 +9413,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1504.7,
         "org": "OpenAI"
       },
@@ -9428,7 +9428,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1478.9,
         "org": "OpenAI"
       },
@@ -9453,7 +9453,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1457.2,
         "org": "OpenAI"
       },
@@ -9463,7 +9463,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1444.3,
         "org": "OpenAI"
       },
@@ -9483,7 +9483,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.3,
         "org": "OpenAI"
       }
@@ -9543,7 +9543,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1504.7,
         "org": "OpenAI"
       },
@@ -9558,7 +9558,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1478.9,
         "org": "OpenAI"
       },
@@ -9583,7 +9583,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1457.2,
         "org": "OpenAI"
       },
@@ -9593,7 +9593,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1444.3,
         "org": "OpenAI"
       },
@@ -9613,7 +9613,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.3,
         "org": "OpenAI"
       }
@@ -9673,7 +9673,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1504.7,
         "org": "OpenAI"
       },
@@ -9688,7 +9688,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1478.9,
         "org": "OpenAI"
       },
@@ -9713,7 +9713,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1457.2,
         "org": "OpenAI"
       },
@@ -9723,7 +9723,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1444.3,
         "org": "OpenAI"
       },
@@ -9743,7 +9743,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.3,
         "org": "OpenAI"
       }
@@ -9808,7 +9808,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1502.4,
         "org": "OpenAI"
       },
@@ -9823,7 +9823,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1481.4,
         "org": "OpenAI"
       },
@@ -9848,7 +9848,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1457.1,
         "org": "OpenAI"
       },
@@ -9858,7 +9858,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1446.6,
         "org": "OpenAI"
       },
@@ -9873,7 +9873,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.5,
         "org": "OpenAI"
       }
@@ -9938,7 +9938,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1502.4,
         "org": "OpenAI"
       },
@@ -9953,7 +9953,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1481.4,
         "org": "OpenAI"
       },
@@ -9978,7 +9978,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1457.1,
         "org": "OpenAI"
       },
@@ -9988,7 +9988,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1446.6,
         "org": "OpenAI"
       },
@@ -10003,7 +10003,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.4-medium (codex-harness)",
+        "name": "gpt-5.4-medium-codex-harness",
         "score": 1437.5,
         "org": "OpenAI"
       }
@@ -10058,7 +10058,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1501.8,
         "org": "OpenAI"
       },
@@ -10073,7 +10073,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1482.2,
         "org": "OpenAI"
       },
@@ -10093,12 +10093,12 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1457.1,
         "org": "OpenAI"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1448.0,
         "org": "OpenAI"
       },
@@ -10208,7 +10208,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1501.8,
         "org": "OpenAI"
       },
@@ -10223,7 +10223,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1482.2,
         "org": "OpenAI"
       },
@@ -10248,12 +10248,12 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1457.1,
         "org": "OpenAI"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1448.0,
         "org": "OpenAI"
       },
@@ -10338,7 +10338,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1501.8,
         "org": "OpenAI"
       },
@@ -10353,7 +10353,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1482.2,
         "org": "OpenAI"
       },
@@ -10378,12 +10378,12 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1457.1,
         "org": "OpenAI"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1448.0,
         "org": "OpenAI"
       },
@@ -10468,7 +10468,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1501.8,
         "org": "OpenAI"
       },
@@ -10483,7 +10483,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1482.2,
         "org": "OpenAI"
       },
@@ -10508,12 +10508,12 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1457.1,
         "org": "OpenAI"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1448.0,
         "org": "OpenAI"
       },
@@ -10598,7 +10598,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1501.8,
         "org": "OpenAI"
       },
@@ -10613,7 +10613,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1482.2,
         "org": "OpenAI"
       },
@@ -10638,12 +10638,12 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1457.1,
         "org": "OpenAI"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1448.0,
         "org": "OpenAI"
       },
@@ -10733,7 +10733,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1500.9,
         "org": "OpenAI"
       },
@@ -10748,7 +10748,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1482.4,
         "org": "OpenAI"
       },
@@ -10773,12 +10773,12 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.9,
         "org": "OpenAI"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1449.2,
         "org": "OpenAI"
       },
@@ -10863,7 +10863,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1500.9,
         "org": "OpenAI"
       },
@@ -10878,7 +10878,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1482.4,
         "org": "OpenAI"
       },
@@ -10903,12 +10903,12 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.9,
         "org": "OpenAI"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1449.2,
         "org": "OpenAI"
       },
@@ -10993,7 +10993,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1500.9,
         "org": "OpenAI"
       },
@@ -11008,7 +11008,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1482.4,
         "org": "OpenAI"
       },
@@ -11033,12 +11033,12 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.9,
         "org": "OpenAI"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1449.2,
         "org": "OpenAI"
       },
@@ -11123,7 +11123,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1500.9,
         "org": "OpenAI"
       },
@@ -11138,7 +11138,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1482.4,
         "org": "OpenAI"
       },
@@ -11163,12 +11163,12 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.9,
         "org": "OpenAI"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1449.2,
         "org": "OpenAI"
       },
@@ -11253,7 +11253,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1500.9,
         "org": "OpenAI"
       },
@@ -11268,7 +11268,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1482.4,
         "org": "OpenAI"
       },
@@ -11293,12 +11293,12 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.9,
         "org": "OpenAI"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1449.2,
         "org": "OpenAI"
       },
@@ -11383,7 +11383,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1501.2,
         "org": "OpenAI"
       },
@@ -11398,7 +11398,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1482.9,
         "org": "OpenAI"
       },
@@ -11428,12 +11428,12 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.9,
         "org": "OpenAI"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1448.5,
         "org": "OpenAI"
       }
@@ -11448,7 +11448,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "glm-5.2 (max)",
+        "name": "glm-5.2-max",
         "score": 1595.2,
         "org": "Z.ai"
       },
@@ -11518,7 +11518,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1502.0,
         "org": "OpenAI"
       },
@@ -11533,7 +11533,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1483.2,
         "org": "OpenAI"
       },
@@ -11563,7 +11563,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.9,
         "org": "OpenAI"
       }
@@ -11578,7 +11578,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "glm-5.2 (max)",
+        "name": "glm-5.2-max",
         "score": 1595.2,
         "org": "Z.ai"
       },
@@ -11648,7 +11648,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1502.0,
         "org": "OpenAI"
       },
@@ -11663,7 +11663,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1483.2,
         "org": "OpenAI"
       },
@@ -11693,7 +11693,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.9,
         "org": "OpenAI"
       }
@@ -11708,7 +11708,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "glm-5.2 (max)",
+        "name": "glm-5.2-max",
         "score": 1595.2,
         "org": "Z.ai"
       },
@@ -11773,7 +11773,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1502.0,
         "org": "OpenAI"
       },
@@ -11788,7 +11788,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1483.2,
         "org": "OpenAI"
       },
@@ -11818,12 +11818,12 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.9,
         "org": "OpenAI"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1449.9,
         "org": "OpenAI"
       }
@@ -11838,7 +11838,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "glm-5.2 (max)",
+        "name": "glm-5.2-max",
         "score": 1595.2,
         "org": "Z.ai"
       },
@@ -11903,7 +11903,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1502.0,
         "org": "OpenAI"
       },
@@ -11918,7 +11918,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1483.2,
         "org": "OpenAI"
       },
@@ -11948,12 +11948,12 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.9,
         "org": "OpenAI"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1449.9,
         "org": "OpenAI"
       }
@@ -11968,7 +11968,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "glm-5.2 (max)",
+        "name": "glm-5.2-max",
         "score": 1595.2,
         "org": "Z.ai"
       },
@@ -12033,7 +12033,7 @@
         "org": "Google"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1502.0,
         "org": "OpenAI"
       },
@@ -12048,7 +12048,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1483.2,
         "org": "OpenAI"
       },
@@ -12078,12 +12078,12 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.9,
         "org": "OpenAI"
       },
       {
-        "name": "gpt-5.5 (codex-harness)",
+        "name": "gpt-5.5-codex-harness",
         "score": 1449.9,
         "org": "OpenAI"
       }
@@ -12098,7 +12098,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "glm-5.2 (max)",
+        "name": "glm-5.2-max",
         "score": 1593.2,
         "org": "Z.ai"
       },
@@ -12168,7 +12168,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1502.4,
         "org": "OpenAI"
       },
@@ -12178,7 +12178,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1483.6,
         "org": "OpenAI"
       },
@@ -12213,7 +12213,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.9,
         "org": "OpenAI"
       }
@@ -12228,7 +12228,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "glm-5.2 (max)",
+        "name": "glm-5.2-max",
         "score": 1593.2,
         "org": "Z.ai"
       },
@@ -12298,7 +12298,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1502.4,
         "org": "OpenAI"
       },
@@ -12308,7 +12308,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1483.6,
         "org": "OpenAI"
       },
@@ -12343,7 +12343,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.9,
         "org": "OpenAI"
       }
@@ -12358,7 +12358,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "glm-5.2 (max)",
+        "name": "glm-5.2-max",
         "score": 1593.2,
         "org": "Z.ai"
       },
@@ -12428,7 +12428,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1502.4,
         "org": "OpenAI"
       },
@@ -12438,7 +12438,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1483.6,
         "org": "OpenAI"
       },
@@ -12473,7 +12473,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.9,
         "org": "OpenAI"
       }
@@ -12488,7 +12488,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "glm-5.2 (max)",
+        "name": "glm-5.2-max",
         "score": 1593.2,
         "org": "Z.ai"
       },
@@ -12558,7 +12558,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1502.4,
         "org": "OpenAI"
       },
@@ -12568,7 +12568,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1483.6,
         "org": "OpenAI"
       },
@@ -12603,7 +12603,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.9,
         "org": "OpenAI"
       }
@@ -12618,7 +12618,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "glm-5.2 (max)",
+        "name": "glm-5.2-max",
         "score": 1593.2,
         "org": "Z.ai"
       },
@@ -12688,7 +12688,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1502.4,
         "org": "OpenAI"
       },
@@ -12698,7 +12698,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1483.6,
         "org": "OpenAI"
       },
@@ -12733,7 +12733,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.9,
         "org": "OpenAI"
       }
@@ -12748,7 +12748,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "glm-5.2 (max)",
+        "name": "glm-5.2-max",
         "score": 1593.2,
         "org": "Z.ai"
       },
@@ -12818,7 +12818,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1502.4,
         "org": "OpenAI"
       },
@@ -12828,7 +12828,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1483.6,
         "org": "OpenAI"
       },
@@ -12863,7 +12863,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.9,
         "org": "OpenAI"
       }
@@ -12878,7 +12878,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "glm-5.2 (max)",
+        "name": "glm-5.2-max",
         "score": 1593.2,
         "org": "Z.ai"
       },
@@ -12948,7 +12948,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1502.4,
         "org": "OpenAI"
       },
@@ -12958,7 +12958,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1483.6,
         "org": "OpenAI"
       },
@@ -12993,7 +12993,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.9,
         "org": "OpenAI"
       }
@@ -13008,7 +13008,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "glm-5.2 (max)",
+        "name": "glm-5.2-max",
         "score": 1593.2,
         "org": "Z.ai"
       },
@@ -13078,7 +13078,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1502.4,
         "org": "OpenAI"
       },
@@ -13088,7 +13088,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1483.6,
         "org": "OpenAI"
       },
@@ -13123,7 +13123,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.9,
         "org": "OpenAI"
       }
@@ -13138,7 +13138,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "glm-5.2 (max)",
+        "name": "glm-5.2-max",
         "score": 1593.2,
         "org": "Z.ai"
       },
@@ -13208,7 +13208,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1502.4,
         "org": "OpenAI"
       },
@@ -13218,7 +13218,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1483.6,
         "org": "OpenAI"
       },
@@ -13253,7 +13253,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.9,
         "org": "OpenAI"
       }
@@ -13268,7 +13268,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "glm-5.2 (max)",
+        "name": "glm-5.2-max",
         "score": 1593.2,
         "org": "Z.ai"
       },
@@ -13338,7 +13338,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1502.4,
         "org": "OpenAI"
       },
@@ -13348,7 +13348,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1483.6,
         "org": "OpenAI"
       },
@@ -13383,7 +13383,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.9,
         "org": "OpenAI"
       }
@@ -13398,7 +13398,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "glm-5.2 (max)",
+        "name": "glm-5.2-max",
         "score": 1593.2,
         "org": "Z.ai"
       },
@@ -13468,7 +13468,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1502.4,
         "org": "OpenAI"
       },
@@ -13478,7 +13478,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1483.6,
         "org": "OpenAI"
       },
@@ -13513,7 +13513,7 @@
         "org": "DeepSeek"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.9,
         "org": "OpenAI"
       }
@@ -13528,7 +13528,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "glm-5.2 (max)",
+        "name": "glm-5.2-max",
         "score": 1584.3,
         "org": "Z.ai"
       },
@@ -13603,7 +13603,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1501.0,
         "org": "OpenAI"
       },
@@ -13613,7 +13613,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1482.9,
         "org": "OpenAI"
       },
@@ -13643,7 +13643,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.7,
         "org": "OpenAI"
       }
@@ -13658,7 +13658,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "glm-5.2 (max)",
+        "name": "glm-5.2-max",
         "score": 1584.3,
         "org": "Z.ai"
       },
@@ -13733,7 +13733,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1501.0,
         "org": "OpenAI"
       },
@@ -13743,7 +13743,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1482.9,
         "org": "OpenAI"
       },
@@ -13773,7 +13773,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.7,
         "org": "OpenAI"
       }
@@ -13788,7 +13788,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "glm-5.2 (max)",
+        "name": "glm-5.2-max",
         "score": 1584.3,
         "org": "Z.ai"
       },
@@ -13863,7 +13863,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1501.0,
         "org": "OpenAI"
       },
@@ -13873,7 +13873,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1482.9,
         "org": "OpenAI"
       },
@@ -13903,7 +13903,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.7,
         "org": "OpenAI"
       }
@@ -13918,7 +13918,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "glm-5.2 (max)",
+        "name": "glm-5.2-max",
         "score": 1584.3,
         "org": "Z.ai"
       },
@@ -13993,7 +13993,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1501.0,
         "org": "OpenAI"
       },
@@ -14003,7 +14003,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1482.9,
         "org": "OpenAI"
       },
@@ -14033,7 +14033,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.7,
         "org": "OpenAI"
       }
@@ -14048,7 +14048,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "glm-5.2 (max)",
+        "name": "glm-5.2-max",
         "score": 1584.3,
         "org": "Z.ai"
       },
@@ -14123,7 +14123,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1501.0,
         "org": "OpenAI"
       },
@@ -14133,7 +14133,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1482.9,
         "org": "OpenAI"
       },
@@ -14163,7 +14163,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.7,
         "org": "OpenAI"
       }
@@ -14178,7 +14178,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "glm-5.2 (max)",
+        "name": "glm-5.2-max",
         "score": 1584.3,
         "org": "Z.ai"
       },
@@ -14253,7 +14253,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1501.0,
         "org": "OpenAI"
       },
@@ -14263,7 +14263,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1482.9,
         "org": "OpenAI"
       },
@@ -14293,7 +14293,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.7,
         "org": "OpenAI"
       }
@@ -14308,7 +14308,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "glm-5.2 (max)",
+        "name": "glm-5.2-max",
         "score": 1584.3,
         "org": "Z.ai"
       },
@@ -14383,7 +14383,7 @@
         "org": "MiniMax"
       },
       {
-        "name": "gpt-5.5-xhigh (codex-harness)",
+        "name": "gpt-5.5-xhigh-codex-harness",
         "score": 1501.0,
         "org": "OpenAI"
       },
@@ -14393,7 +14393,7 @@
         "org": "Anthropic"
       },
       {
-        "name": "gpt-5.5-high (codex-harness)",
+        "name": "gpt-5.5-high-codex-harness",
         "score": 1482.9,
         "org": "OpenAI"
       },
@@ -14423,7 +14423,7 @@
         "org": "Alibaba"
       },
       {
-        "name": "gpt-5.4-high (codex-harness)",
+        "name": "gpt-5.4-high-codex-harness",
         "score": 1456.7,
         "org": "OpenAI"
       }
